@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  #root{
+    @apply h-screen w-full flex
+  }
+
+  .balloon-btn{
+    @apply p-[4px] hover:bg-slate-200 rounded-md
+  }
+}
